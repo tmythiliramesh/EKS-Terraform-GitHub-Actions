@@ -7,10 +7,10 @@ terraform {
     }
   }
   backend "s3" {
-    bucket         = "my-ews-baket1"
+    bucket         = "my-rpgews-baket1"
     region         = "us-east-1"
     key            = "eks/terraform.tfstate"
-    dynamodb_table = "Lock-Files"
+    dynamodb_table = "RPG-Lock-Files"
     encrypt        = true
   }
 }
