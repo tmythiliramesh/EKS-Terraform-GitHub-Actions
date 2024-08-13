@@ -10,7 +10,7 @@ terraform {
     bucket         = "my-rpgews-baket1"
     region         = "us-east-1"
     key            = "eks/terraform.tfstate"
-    dynamodb_table = "RPG-Lock-Files"
+    dynamodb_table = "RPG-LockFiles"
     encrypt        = true
   }
 }
